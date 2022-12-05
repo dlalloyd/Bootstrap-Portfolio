@@ -5,9 +5,11 @@ body {
   background-color: rgb(62, 75, 39);
   color: whitesmoke;
 }
-
-body {
-  font-family: "Muli", "Helvetica", "Arial", "sans-serif";
+@media (min-width: 400px) {
+  .navbar {
+    /* min-height: 100vh; */
+    min-width: var(--sidbar-width);
+  }
 }
 h1 {
   font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
@@ -25,6 +27,13 @@ h6 {
   font-weight: 200;
   letter-spacing: 1px;
 }
+p {
+  font-size: 30px;
+  /* line-height: 1.5; */
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
 a {
   color: #ffffff;
   transition: all 0.35s;
@@ -33,4 +42,13 @@ a {
 a:hover,
 a:focus {
   color: #fcbd20;
+}
+.jumbotron {
+  background-color: rgb(63, 75, 39);
+}
+.btn {
+  text-decoration: none;
+  background-color: coral;
+  border-radius: 30px;
+  text-align: center;
 }
