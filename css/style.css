@@ -7,7 +7,6 @@ body {
 }
 @media (min-width: 400px) {
   .navbar {
-    /* min-height: 100vh; */
     min-width: var(--sidbar-width);
   }
 }
@@ -45,19 +44,19 @@ a:focus {
   color: #fcbd20;
 }
 section {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   height: 110%;
   background-color: rgb(37, 45, 20);
 }
-
+.section-title {
+  display: flex;
+  justify-content: center;
+}
 /* hero section */
 .jumbotron {
   background-color: rgb(63, 75, 39);
 }
 /* .img-thumbnail {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
 } */
 .btn {
   text-decoration: none;
@@ -70,11 +69,8 @@ section {
 }
 /* work section */
 /* .full-height {
-  min-height: 100vh;
-  height: 110vh;
-  background-color: rgb(37, 45, 20);
+  
 } */
-
 .col {
   padding-top: 20px;
   padding-bottom: 30px;
