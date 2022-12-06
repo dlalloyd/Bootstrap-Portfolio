@@ -44,16 +44,21 @@ a:hover,
 a:focus {
   color: #fcbd20;
 }
+section {
+  min-height: 100vh;
+  height: 110%;
+  background-color: rgb(37, 45, 20);
+}
 
 /* hero section */
 .jumbotron {
   background-color: rgb(63, 75, 39);
 }
-.img-thumbnail {
+/* .img-thumbnail {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-}
+} */
 .btn {
   text-decoration: none;
   background-color: coral;
@@ -64,14 +69,26 @@ a:focus {
   padding-bottom: 40px;
 }
 /* work section */
-.full-height {
+/* .full-height {
   min-height: 100vh;
-  height: 110%;
+  height: 110vh;
   background-color: rgb(37, 45, 20);
+} */
+
+.col {
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
-.row {
-  padding: 30px;
+.card {
+  width: 400px;
 }
-.card-text {
-  height: 150px;
+
+/* .card-img-top {
+  height: 300px;
+}
+
+/* Skills-section */
+.skillfull-height {
+  border: solid black 1px;
+  padding-top: 30px;
 }
