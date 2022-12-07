@@ -5,11 +5,13 @@ body {
   background-color: rgb(62, 75, 39);
   color: whitesmoke;
 }
-@media (min-width: 400px) {
-  .navbar {
+/* @media (min-width: 576px) {
+  .navbar,
+  .skillfull-height,
+  .full-height {
     min-width: var(--sidbar-width);
-  }
-}
+  } */
+
 h1 {
   font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
   font-weight: 700;
@@ -51,6 +53,7 @@ section {
 .section-title {
   display: flex;
   justify-content: center;
+  padding: 20px;
 }
 /* hero section */
 .jumbotron {
@@ -64,19 +67,20 @@ section {
   border-radius: 30px;
   text-align: center;
 }
-.card-thumbnail {
+/* .card-thumbnail {
   padding-bottom: 40px;
-}
+} */
 /* work section */
+
 /* .full-height {
   
 } */
 .col {
-  padding-top: 20px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .card {
-  width: 400px;
+  width: 350px;
 }
 
 /* .card-img-top {
@@ -87,4 +91,8 @@ section {
 .skillfull-height {
   border: solid black 1px;
   padding-top: 30px;
+}
+/* Contact section  */
+.contact-section {
+  height: 150px;
 }
