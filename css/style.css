@@ -63,9 +63,10 @@ section {
 } */
 .btn {
   text-decoration: none;
-  background-color: coral;
+  background-color: indianred;
   border-radius: 30px;
   text-align: center;
+  padding: 5px;
 }
 /* .card-thumbnail {
   padding-bottom: 40px;
